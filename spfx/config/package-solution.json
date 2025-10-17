@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "logistics-request-tracker-client-side-solution",
+    "id": "5eb150a1-b2ec-4d07-bd2e-6e74cb0e0d1c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/logistics-request-tracker.sppkg"
+  }
+}

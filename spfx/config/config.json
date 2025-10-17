@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "bundles": {
+    "logistics-tracker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/logisticsTracker/LogisticsTrackerWebPart.js",
+          "manifest": "./src/webparts/logisticsTracker/LogisticsTrackerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LogisticsTrackerWebPartStrings": "lib/webparts/logisticsTracker/loc/{locale}.js"
+  }
+}
