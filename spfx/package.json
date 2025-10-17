@@ -1,0 +1,34 @@
+{
+  "name": "logistics-request-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "gulp bundle",
+    "bundle": "gulp bundle --ship",
+    "clean": "rimraf temp dist",
+    "package": "gulp package-solution --ship",
+    "serve": "gulp serve"
+  },
+  "dependencies": {
+    "@microsoft/sp-core-library": "1.18.2",
+    "@microsoft/sp-lodash-subset": "1.18.2",
+    "@microsoft/sp-office-ui-fabric-core": "1.18.2",
+    "@microsoft/sp-property-pane": "1.18.2",
+    "@microsoft/sp-webpart-base": "1.18.2",
+    "@pnp/spfx-controls-react": "3.16.0",
+    "office-ui-fabric-react": "7.199.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@microsoft/sp-build-web": "1.18.2",
+    "@microsoft/sp-module-interfaces": "1.18.2",
+    "@microsoft/sp-tslint-rules": "1.18.2",
+    "@microsoft/sp-webpart-workbench": "1.18.2",
+    "@types/react": "17.0.62",
+    "@types/react-dom": "17.0.20",
+    "gulp": "4.0.2",
+    "rimraf": "5.0.5",
+    "typescript": "4.8.4"
+  }
+}

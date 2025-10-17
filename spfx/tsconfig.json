@@ -1,0 +1,6 @@
+{
+  "extends": "./node_modules/@microsoft/sp-build-web/tsconfig.json",
+  "compilerOptions": {
+    "target": "es5"
+  }
+}

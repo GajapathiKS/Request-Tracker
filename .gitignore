@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build artifacts
+bin/
+obj/
+
+temp/
+dist/
+sharepoint/
+lib/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment configuration
+appsettings.*.local.json
